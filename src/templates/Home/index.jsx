@@ -102,7 +102,7 @@ class Home extends Component {
 
   render() {
     //const name = this.state.name; // java descructing
-    const { name, counter, posts, page, postsPerPage, allPosts, searchValue } = this.state;
+    const { posts, page, postsPerPage, allPosts, searchValue } = this.state;
     const noMorePosts = page + postsPerPage >= allPosts.length;
 
     const filteredPosts = !!searchValue ?
