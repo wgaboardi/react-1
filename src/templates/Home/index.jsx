@@ -19,12 +19,10 @@ class Home extends Component {
 
   //json placeholder
   state = {
-    name: 'Wellington',
     posts: [],
     allPosts: [],
     page: 0,
     postsPerPage: 10,
-    counter: 0,
     searchValue: ''
 
   }
