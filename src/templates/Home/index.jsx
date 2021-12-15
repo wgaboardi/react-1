@@ -80,12 +80,12 @@ class Home extends Component {
   //class fields (javascript) - comentario no constructor acima
   // nao precisa fazer bind
 
-  handleClick = () => {
-    this.setState({ name: 'Legal' });
-    //const { name } = this.state;
+  //handleClick = () => {
+  //this.setState({ name: 'Legal' });
+  //const { name } = this.state;
 
-    //console.log(`p clicado ${name}`);
-  }
+  //console.log(`p clicado ${name}`);
+  //  }
 
 
 
