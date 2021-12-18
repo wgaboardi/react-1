@@ -1,12 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Home from './templates/Home';
+import Home, { Home3 } from './templates/Home';
 //import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
     <Home />
+    <Home3 teste={2} />
   </React.StrictMode>,
   document.getElementById('root')
 );

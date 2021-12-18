@@ -1,0 +1,4 @@
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+extensão eslint 
+npx eslint src/**/*.jsx --fix
+npm -i prop-types

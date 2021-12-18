@@ -1,0 +1,7 @@
+npm test
+npm test -- --coverage
+npm test -- --watchAll=false --coverage
+
+npx eslint --init
+npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+npx eslint src/**/*.jsx --fix
